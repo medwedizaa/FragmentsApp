@@ -3,26 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#51009688">
+    android:background="#FF9800">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Это мой первый проект"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Это второй фрагмент"
         android:textStyle="bold|italic"
         android:textSize="36sp"
         android:layout_margin="16dp"
-        android:gravity="center_horizontal"
-        />
-
-    <Button
-        android:id="@+id/button_next"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_margin="16dp"
-        android:textSize="36sp"
-        android:text="Next screen"
-        />
+        android:gravity="center_horizontal" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
